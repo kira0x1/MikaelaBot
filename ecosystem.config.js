@@ -10,6 +10,8 @@ module.exports = {
          out_file: './logs/out.log',
          log_file: './logs/combined.log',
          time: true,
+         source_map_support: true,
+         interpreter: 'node',
          env: {
             NODE_ENV: 'development'
          },
